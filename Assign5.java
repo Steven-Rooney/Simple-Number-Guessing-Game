@@ -2,9 +2,6 @@ package data.structures;
 import java.util.Scanner;
 /**
  * @author Steve Rooney
- * Class: Data structures
- * Assignment 5
- * 
  * In this class I define how to use binary search to determine the 
  * number that a person is thinking of in as few steps as possible. 
  * In the first if statement I use count and 0 as a starting flag 
@@ -14,7 +11,7 @@ import java.util.Scanner;
  * than it is assumed the users number is in the large half of 
  * the initial array.
  */
-public class Assign5 {
+public class guessingGame {
     public static int nGuess(int[] ar, int begin, int end){
         Scanner in = new Scanner(System.in);
         int mid = (begin + end) /2;
